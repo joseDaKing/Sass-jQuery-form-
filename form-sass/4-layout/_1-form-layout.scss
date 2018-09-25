@@ -1,0 +1,82 @@
+.form {
+
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    width: 100%;
+    max-width: 90rem;
+    height: 62.5em;
+
+    margin: auto;
+    margin-top: 15rem;
+    box-shadow: $shadow-light;
+    
+    display: grid;
+
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 30rem;
+
+    grid-template-areas: 
+        "main sidebar"
+        "main sidebar";
+
+    &__sidebar {
+        height: 100%;
+        padding: 4rem;
+        background-color: $primary;
+        box-shadow: $shadow-dark;
+        grid-area: sidebar;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+
+        .pagination {
+            flex-basis: 5rem;
+            align-items: flex-start;
+            text-align: center;
+        }
+
+
+        .contact-info {
+            flex-basis: 7rem;
+        }
+
+        .module-info-container{
+            flex-basis: 42.5rem;
+            flex-grow: 1;
+        }
+    }
+
+    &__container-main {
+        height: 100%;
+        background-color: $primary;
+        grid-area: main;
+    }
+
+    &__main {
+        padding: 2rem 4rem;
+        padding-bottom: 0px;
+        background-color: $primary;
+        height: calc(100% - 8rem);
+        overflow: hidden; 
+    }
+
+    &__content {        
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    &__btns {
+        text-align: right;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        height: 16rem;
+
+        padding-top: 2rem;
+    }
+}

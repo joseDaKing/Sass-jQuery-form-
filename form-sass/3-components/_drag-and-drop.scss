@@ -1,0 +1,18 @@
+.drag-and-drop {
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+
+    background-color: $primary-dark-1;
+    padding: 3.5rem;
+
+    border-style: dashed;
+    border-width: 2px;
+    border-color: $primary-dark-2;
+
+    user-select: none;
+
+    &__type {
+        color: $secondary;
+    }
+}

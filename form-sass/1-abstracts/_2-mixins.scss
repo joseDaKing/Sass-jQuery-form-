@@ -1,0 +1,5 @@
+@mixin media-query($min-max-type, $height-width, $size) {
+    @media only screen and (#{$min-max-type}-#{$height-width}: #{$size}) {
+        @content;
+    }
+};

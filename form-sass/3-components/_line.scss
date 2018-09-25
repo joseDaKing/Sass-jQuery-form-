@@ -1,0 +1,25 @@
+.line {
+    &::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 12.5%;
+        height: 4px;
+        background-color: $primary-dark-1;
+
+    }
+
+    &--b {
+        &::before {
+            bottom: 0px;
+        }
+    }
+
+    &--t {
+        &::before {
+            top: 0px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+}
+
+html {
+    font-size: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+}
+
+body {
+    padding: 4rem 0;
+    height: 150vh;
+    background-color: $primary-dark-1;
+}

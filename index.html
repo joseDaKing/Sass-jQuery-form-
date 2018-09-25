@@ -1,0 +1,470 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> form </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        
+        <form class="form">
+            <div class="form__container-main">
+                <div class="form__main">
+                    <!-- 
+                        height: 55rem 
+                        personal information
+                    -->
+                    <div class="form__content ">
+                        <h1 class="header-primary u-margin-b-size-md">personal information</h1>
+
+                        <div class="u-flex-container u-margin-b-size-sm u-flex-container-column">
+                            <label class="text-input u-margin-r-size-sm">
+                                <div class="text-input__container"> 
+                                    <input class="text-input__input" type="text" required>
+                                    <div class="text-input__frame"></div>
+                                </div>
+                                <div class="text-input__label"> first name </div>
+                            </label>
+    
+                            <label class="text-input">
+                                <div class="text-input__container"> 
+                                    <input class="text-input__input" type="text" required>
+                                    <div class="text-input__frame"></div>
+                                </div>
+                                <div class="text-input__label"> last name </div>
+                            </label>
+                        </div>
+
+                        <label class="text-input u-margin-b-size-sm">
+                            <div class="text-input__container"> 
+                                <input class="text-input__input" type="email" required>
+                                <div class="text-input__frame"></div>
+                                <figure class="text-input__icon"> 
+                                    <img class="text-input__img" src="icons/mail.svg">
+                                </figure>
+                            </div>
+                            <div class="text-input__label"> email adddress </div>
+                        </label>
+
+                        <label class="text-input u-margin-b-size-sm">
+                            <div class="text-input__container"> 
+                                <input class="text-input__input" type="tel" required min="0" step="1">
+                                <div class="text-input__frame"></div>
+                                <figure class="text-input__icon"> 
+                                    <img class="text-input__img" src="icons/phone-call.svg">
+                                </figure>
+                            </div>
+                            <div class="text-input__label"> phone number </div>
+                        </label>
+
+                        <label class="text-input">
+                            <div class="text-input__container"> 
+                                <input class="text-input__input" type="text" required>
+                                <div class="text-input__frame"></div>
+                            </div>
+                            <div class="text-input__label"> where are you from </div>
+                        </label>
+                    </div>
+
+                    <!-- 
+                        height: 62.5rem 
+                        company information
+                    -->
+                    <div class="form__content ">
+                        <h1 class="header-primary u-margin-b-size-md">company information</h1>
+
+                        <div class="drag-and-drop u-margin-b-size-sm">
+                            <span class="text drag-and-drop__type"> uppload logo </span> 
+                            <span class="text"> or just drag and drag and dropp </span>
+                        </div>
+
+                        <label class="text-input u-margin-b-size-sm">
+                            <div class="text-input__container"> 
+                                <input class="text-input__input" type="text" required>
+                                <div class="text-input__frame"></div>
+                            </div>
+                            <div class="text-input__label"> company name </div>
+                        </label>
+
+                        <label class="text-input u-margin-b-size-sm">
+                            <div class="text-input__container"> 
+                                <input class="text-input__input" type="email" required>
+                                <div class="text-input__frame"></div>
+                                <figure class="text-input__icon"> 
+                                    <img class="text-input__img" src="icons/mail.svg">
+                                </figure>
+                            </div>
+                            <div class="text-input__label"> company email adddress </div>
+                        </label>
+
+                        <label class="text-input u-margin-b-size-sm">
+                            <div class="text-input__container"> 
+                                <input class="text-input__input" type="tel" required min="0" step="1">
+                                <div class="text-input__frame"></div>
+                                <figure class="text-input__icon"> 
+                                    <img class="text-input__img" src="icons/phone-call.svg">
+                                </figure>
+                            </div>
+                            <div class="text-input__label"> company phone number </div>
+                        </label>
+
+                        <label class="text-input">
+                            <div class="text-input__container"> 
+                                <input class="text-input__input" type="text" required>
+                                <div class="text-input__frame"></div>
+                            </div>
+                            <div class="text-input__label"> your position in the company </div>
+                        </label>
+                    </div>
+
+                    <!-- 
+                        height: 75rem
+                        bussiness hours
+                    -->
+                    <div class="form__content ">
+                        <h1 class="header-primary u-margin-b-size-md">bussiness hours</h1> 
+                          
+                        <div class="u-flex-container u-margin-b-size-sm u-flex-container-column">
+                            <div class="text time-input__label text-input__label u-text-capitalize u-margin-r-size-lg">monday</div>
+
+                            <div class="time-input u-margin-r-size-sm" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">09</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+
+                            <div class="time-input" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">17</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="u-flex-container u-margin-b-size-sm u-flex-container-column">
+                            <div class="text time-input__label text-input__label u-text-capitalize u-margin-r-size-lg">tuesday</div>
+
+                            <div class="time-input u-margin-r-size-sm" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">09</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+
+                            <div class="time-input" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">17</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="u-flex-container u-margin-b-size-sm u-flex-container-column">
+                            <div class="text time-input__label text-input__label u-text-capitalize u-margin-r-size-lg">wednesday</div>
+
+                            <div class="time-input u-margin-r-size-sm" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">09</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+
+                            <div class="time-input" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">17</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="u-flex-container u-margin-b-size-sm u-flex-container-column">
+                            <div class="text time-input__label text-input__label u-text-capitalize u-margin-r-size-lg">thursday</div>
+
+                            <div class="time-input u-margin-r-size-sm" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">09</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+
+                            <div class="time-input" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">17</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="u-flex-container u-margin-b-size-sm u-flex-container-column">
+                            <div class="text time-input__label text-input__label u-text-capitalize u-margin-r-size-lg">friday</div>
+
+                            <div class="time-input u-margin-r-size-sm" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">09</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+
+                            <div class="time-input" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">17</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="u-flex-container u-margin-b-size-lg u-flex-container-column">
+                            <div class="text time-input__label text-input__label u-text-capitalize u-margin-r-size-lg">saturday</div>
+
+                            <div class="time-input u-margin-r-size-sm" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">09</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+
+                            <div class="time-input" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">17</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="u-flex-container u-flex-container-column">
+                            <div class="text time-input__label text-input__label u-text-capitalize u-margin-r-size-lg">lunch</div>
+
+                            <div class="time-input u-margin-r-size-sm" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">09</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+
+                            <div class="time-input" tabindex="0">
+                                <div class="time-input__elem">
+                                    <span class="time-input__elem-hour">17</span>
+                                    <span class="time-input__elem-min">00</span>
+                                </div>
+
+                                <div class="time-input__btn">
+                                    <span class="time-input__btn-up"> &lt; </span>
+                                    <span class="time-input__btn-down"> &gt; </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 
+                        height: 55rem
+                        email setup
+                    -->
+                    <div class="form__content ">
+                        <h1 class="header-primary u-margin-b-size-sm">bussiness hours</h1> 
+                        
+                        <div class="text u-margin-b-size-md"> Which email provider are you using? Pick below: </div>
+
+                        <div class="u-flex-container email-container u-margin-b-size-lg"> 
+                            <div class="email email--tertiary">
+                                <figure class="email__img-container">
+                                    <img class="email__img" src="icons/google-plus-logo.svg">
+                                </figure>
+
+                                <p class="email__text">
+                                    I am using gmail
+                                </p>
+                            </div>
+
+                            <div class="email email--tertiary">
+                                <figure class="email__img-container">
+                                    <img class="email__img" src="icons/hotmail.svg">
+                                </figure>
+
+                                <p class="email__text">
+                                    I am using hotmail
+                                </p>
+                            </div>
+
+                            <div class="email email--primary">
+                                <figure class="email__img-container">
+                                    <img class="email__img" src="icons/info.svg">
+                                </figure>
+
+                                <p class="email__text">
+                                    I am using hotmail
+                                </p>
+                            </div>
+
+                        </div>   
+
+                        <p class="text u-text-center">
+                            Or if you want skip this step entirely and setup it later.<br>
+                            <a href="#" class="link"> Skip step </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="form__btns">
+                    <a class="btn btn--primary btn--prev">
+                        previous step
+                    </a>
+
+                    <a class="btn btn--secondary btn--next">
+                        next step
+                    </a>
+                </div>
+            </div>
+
+            <div class="form__sidebar">
+                <div class="pagination line line--b">
+                    <span class="pagination__item pagination__active"> 1 </span>
+                    <span class="pagination__item"> 2 </span>
+                    <span class="pagination__item"> 3 </span>
+                    <span class="pagination__item"> 4 </span>
+                </div>
+
+                <div class="module-info-container">
+                    <!-- 
+                        personal information
+                    -->
+                    <div class="module-info ">
+                        <figure class="icon u-margin-b">
+                            <img class="icon__img" src="icons/avatar.svg">
+                        </figure>
+                        <h1 class="header-secondary u-margin-b-size-sm">personal information </h1>
+                        <p class="text">
+                            Fill out the form on the left. 
+                            You can always edit the data in the menu settings.
+                        </p>
+                    </div>
+                    
+
+                    <!-- 
+                        company information
+                    -->
+                    <div class="module-info ">
+                        <figure class="icon u-margin-b">
+                            <img class="icon__img" src="icons/factory.svg">
+                        </figure>
+                        <h1 class="header-secondary u-margin-b-size-sm">company information </h1>
+                        <p class="text">
+                            Fill out the form on the left. 
+                            You can always edit the data in the menu settings.
+                        </p>
+                    </div>
+
+
+                    <!-- 
+                        bussiness hours
+                    -->
+                    <div class="module-info ">
+                        <figure class="icon u-margin-b">
+                            <img class="icon__img" src="icons/alarm-clock.svg">
+                        </figure>
+                        <h1 class="header-secondary u-margin-b-size-sm">bussiness hours </h1>
+                        <p class="text">
+                            Simple setup of your bussiness hours.
+                            You can setup this in more detail on the settings page.
+                        </p>
+                    </div>
+
+
+                    <!-- 
+                        email setup
+                    -->
+                    <div class="module-info ">
+                        <figure class="icon u-margin-b">
+                            <img class="icon__img" src="icons/mail.svg">
+                        </figure>
+                        <h1 class="header-secondary u-margin-b-size-sm">email setup </h1>
+                        <p class="text">
+                            Connect one of your existing email 
+                            clients to company to automatically 
+                            upload your clients.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-info line line--t">
+                    <p class="text"> (330) 123 4567 </p>
+                    <p class="text"> help@gmail.com  </p>
+                </div>
+            </div>
+        </form>
+
+        <script 
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>
+        <script src="main.js"></script>
+    </body>
+</html>

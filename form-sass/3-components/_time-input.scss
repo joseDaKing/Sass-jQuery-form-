@@ -1,0 +1,87 @@
+.time-input {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    background-color: transparent;
+    color: $primary-dark-3;
+    border: solid 2px $primary-dark-1;
+    border-radius: 0.5rem; 
+    height: 5.2rem;
+
+    display: flex;
+    align-items: center;
+    user-select: none;
+    transition: $ts;
+    flex-grow: 1;
+
+    cursor: pointer;
+
+    &:focus {
+        border-color: $secondary;
+        color: $secondary;
+        outline: none;
+        transition: $ts;
+    }
+
+    &__label {
+        flex-basis: 8rem;
+        text-align: right;
+        margin-bottom: 0px;
+        align-self: center;
+    }
+
+    &__elem {
+        color: inherit;
+        font-size: 1.7rem;
+        text-transform: capitalize;
+        flex-grow: 1;
+
+        &-hour {
+            width: 100%;
+            &::after {
+                content: ":";
+            }
+        }
+
+        &-min {
+            left: -5%;
+        }
+    }
+
+    &__btn {
+        color: $primary-dark-2;
+        flex-grow: 1;
+        text-align: right;
+
+        &-up {
+            transform-origin: right;
+            left: 2.25px;
+        }
+
+        &-down {
+            transform-origin: left;
+        }
+
+        &-down, &-up {
+            font-size: 2.1rem;
+            text-transform: capitalize;
+            transition: $ts;
+            display: inline-block;
+            cursor: pointer;
+
+            padding-right: 0.35rem;
+            padding-left: 0.35rem; 
+
+            transform: scale(1) rotate(90deg);
+
+            &:hover {
+                transition: $ts;
+                transform: scale(1.3) rotate(90deg);
+            }
+
+            &:active {
+                transition: $ts;
+                color: $secondary;
+            }
+        }
+    }
+}

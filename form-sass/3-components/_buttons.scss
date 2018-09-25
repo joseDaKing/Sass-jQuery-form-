@@ -1,0 +1,92 @@
+.btn {
+    &:not(:last-child) {
+        margin-right: 1.25rem;
+    }
+    display: inline-block;
+
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    word-spacing: 1.2px;
+    
+    background-color: red;
+    border-radius: 25%/100%;
+    padding: 1.25rem 4rem;
+
+    user-select: none;
+    cursor: pointer;
+    transition: $ts;
+
+    &:hover {
+        transition: $ts;
+        transform: scale(1.1);     
+    }
+
+    &:active {
+        transition: $ts;
+        transform: scale(1.2);
+    }
+
+    &--primary {
+        background-color: $primary-dark-1;
+        color: $primary-dark-3;
+
+        &:active {
+            filter: brightness(95%);
+        }
+    }
+
+    &--secondary {
+        background-color: $secondary;
+        color: $primary;
+        &:active {
+            filter: brightness(105%);
+        }
+    }
+
+    &--prev {
+        &::before {
+            content: "<";
+            display: inline-block;
+            transform: scale(2) translateY(-2.5%) translateX(-150%);
+            font-weight: lighter;
+            transition: $ts;
+        }
+
+        padding: 1.25rem 2.5rem;
+        padding-left: 4rem;
+    }
+
+    &--next {
+        &::after {
+            content: ">";
+            display: inline-block;
+            transform: scale(2) translateY(-2.5%) translateX(150%);
+            font-weight: lighter;
+            transition: $ts;
+        }
+
+        padding: 1.25rem 2.5rem;
+        padding-right: 4rem;
+        
+    }
+
+    &--next, &--prev {
+        &:hover {
+            transform: scale(1);
+        }
+
+        &:active {
+            &::before {
+                transform: scale(2) translateY(-2.5%) translateX(-200%);
+                transition: $ts;
+            }
+
+            &::after {
+                transform: scale(2) translateY(-2.5%) translateX(200%);
+                transition: $ts;
+            }
+        }
+    }
+
+}

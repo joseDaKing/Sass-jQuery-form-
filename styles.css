@@ -1,0 +1,1243 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+/* line 23, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+/* line 32, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+/* line 45, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 56, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+/* line 68, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+/* line 77, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+/* line 87, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 97, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+/* line 108, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+/* line 117, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 125, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 129, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+/* line 140, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+/* line 152, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+/* line 168, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+/* line 178, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+/* line 187, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+/* line 198, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+/* line 210, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+/* line 221, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+/* line 232, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+/* line 245, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+/* line 253, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+/* line 262, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+/* line 272, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+/* line 282, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+/* line 291, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+/* line 300, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+/* line 312, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+/* line 320, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+/* line 331, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+/* line 339, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 343, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+input,
+label,
+select,
+button,
+textarea {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  /* Browsers have different default form fonts */
+  font-size: 13px;
+  font-family: Arial;
+}
+
+/* Remove the stupid outer glow in Webkit */
+/* line 364, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+input:focus {
+  outline: 0;
+}
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+/* All of our custom controls should be what we expect them to be */
+/* line 373, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+input,
+textarea {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* These elements are usually rendered a certain way by the browser */
+/* line 382, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+button,
+input[type=reset],
+input[type=button],
+input[type=submit],
+input[type=checkbox],
+input[type=radio],
+select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Text Inputs
+-----------------------------------------------*/
+/* Button Controls
+-----------------------------------------------*/
+/* line 418, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+input[type=checkbox],
+input[type=radio] {
+  width: 13px;
+  height: 13px;
+}
+
+/* File Uploads
+-----------------------------------------------*/
+/* Search Input
+-----------------------------------------------*/
+/* Make webkit render the search input like a normal text field */
+/* line 437, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+}
+
+/* Turn off the recent search for webkit. It adds about 15px padding on the left */
+/* line 444, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+::-webkit-search-decoration {
+  display: none;
+}
+
+/* Buttons
+-----------------------------------------------*/
+/* line 452, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+  /* Fix IE7 display bug */
+  overflow: visible;
+  width: auto;
+}
+
+/* IE8 and FF freak out if this rule is within another selector */
+/* line 463, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+::-webkit-file-upload-button {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+/* Textarea
+-----------------------------------------------*/
+/* line 473, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+textarea {
+  /* Move the label to the top */
+  vertical-align: top;
+  /* Turn off scroll bars in IE unless needed */
+  overflow: auto;
+}
+
+/* Selects
+-----------------------------------------------*/
+/* line 485, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_normalize.scss */
+select[multiple] {
+  /* Move the label to the top */
+  vertical-align: top;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_1-base.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  font-family: 'Roboto Condensed', sans-serif;
+  position: relative;
+}
+
+/* line 9, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_1-base.scss */
+html {
+  font-size: 10px;
+}
+
+/* line 13, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_1-base.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+/* line 17, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_1-base.scss */
+body {
+  padding: 4rem 0;
+  height: 150vh;
+  background-color: #E6ECEF;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_3-typography.scss */
+.header-primary {
+  text-transform: capitalize;
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+  font-size: 2.5rem;
+  color: #475156;
+  font-weight: 500;
+  text-align: inherit;
+}
+
+/* line 11, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_3-typography.scss */
+.header-secondary {
+  text-transform: capitalize;
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+  font-size: 1.75rem;
+  color: #475156;
+  font-weight: 500;
+  text-align: inherit;
+}
+
+/* line 21, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_3-typography.scss */
+.text {
+  word-spacing: 1.35px;
+  letter-spacing: 0.7px;
+  font-size: 1.5rem;
+  color: #96A9B3;
+  font-weight: 400;
+  text-align: inherit;
+  line-height: 2.5rem;
+}
+
+/* line 31, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_3-typography.scss */
+.link {
+  color: #03A9F4;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: all 300ms ease 0s;
+  display: inline-block;
+}
+
+/* line 39, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_3-typography.scss */
+.link:active {
+  transition: all 300ms ease 0s;
+  transform-origin: bottom;
+  transform: scale(1.1);
+}
+
+/* line 2, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+.u-text-capitalize {
+  text-transform: capitalize;
+}
+
+/* line 6, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+.u-text-center {
+  text-align: center;
+}
+
+/* line 14, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+.u-margin-b-size-lg {
+  margin-bottom: 6rem;
+}
+
+/* line 18, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+.u-margin-b-size-md {
+  margin-bottom: 4rem;
+}
+
+/* line 22, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+.u-margin-b-size-sm {
+  margin-bottom: 2rem;
+}
+
+/* line 30, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+.u-margin-r-size-lg {
+  margin-right: 6rem;
+}
+
+/* line 34, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+.u-margin-r-size-md {
+  margin-right: 4rem;
+}
+
+/* line 38, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+.u-margin-r-size-sm {
+  margin-right: 2rem;
+}
+
+/* line 45, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+.u-flex-container {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+@media only screen and (max-width: 769px) {
+  /* line 51, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+  .u-flex-container-column {
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 58, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+  .u-flex-container-column > * {
+    margin: 0px;
+    width: 100%;
+    flex-basis: auto !important;
+    text-align: center !important;
+  }
+  /* line 64, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+  .u-flex-container-column > *:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+  /* line 69, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/2-base/_4-utilities.scss */
+  .u-flex-container-column > .time-input__label {
+    margin-top: 4rem;
+  }
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_pagination.scss */
+.pagination {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  color: #96A9B3;
+  display: flex;
+  align-items: flex-start;
+  user-select: none;
+}
+
+/* line 11, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_pagination.scss */
+.pagination__item {
+  display: block;
+  flex-grow: 1;
+  transition: all 300ms ease 0s;
+  transition-duration: 500ms;
+}
+
+/* line 18, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_pagination.scss */
+.pagination__item::before {
+  content: "";
+  border: solid #03A9F4 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 4rem;
+  height: 4rem;
+  transition: inherit;
+  transition-duration: inherit;
+  opacity: 0;
+  transform: scale(0);
+}
+
+/* line 40, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_pagination.scss */
+.pagination__active {
+  transition: all 300ms ease 0s;
+  transition-duration: 500ms;
+  color: #03A9F4;
+}
+
+/* line 45, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_pagination.scss */
+.pagination__active::before {
+  transition: inherit;
+  transition-duration: inherit;
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_contact-info.scss */
+.contact-info {
+  flex-basis: 7.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  justify-self: flex-end;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_module-info.scss */
+.module-info-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 8, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_module-info.scss */
+.module-info {
+  text-align: center;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_icon.scss */
+.icon {
+  width: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  user-select: none;
+}
+
+/* line 8, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_icon.scss */
+.icon__img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+/* line 2, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_line.scss */
+.line::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12.5%;
+  height: 4px;
+  background-color: #E6ECEF;
+}
+
+/* line 15, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_line.scss */
+.line--b::before {
+  bottom: 0px;
+}
+
+/* line 21, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_line.scss */
+.line--t::before {
+  top: 0px;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input {
+  display: flex;
+  flex-direction: column-reverse;
+  user-select: none;
+  flex-grow: 1;
+}
+
+/* line 8, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__label {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #96A9B3;
+  margin-bottom: 1rem;
+  letter-spacing: 0.8px;
+  word-spacing: 1.4px;
+  align-self: flex-start;
+}
+
+/* line 18, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__label::after {
+  content: ":";
+  display: block;
+  position: absolute;
+  right: -6px;
+  top: 0px;
+}
+
+/* line 26, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__label:active {
+  border-color: #96A9B3;
+}
+
+/* line 31, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__input {
+  border: transparent;
+  background-color: transparent;
+  outline: none;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #475156;
+  letter-spacing: 0.8px;
+  word-spacing: 1.4px;
+  height: 100%;
+  z-index: 1;
+}
+
+/* line 45, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__input[type="email"] {
+  text-transform: none;
+}
+
+/* line 50, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__container {
+  padding: 0 1.75rem;
+  height: 5.2rem;
+  cursor: text;
+}
+
+/* line 56, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__frame {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: solid #E6ECEF 2px;
+  border-radius: 0.5rem;
+  z-index: 0;
+  transition: all 300ms ease 0s;
+}
+
+/* line 68, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__icon {
+  width: 3rem;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  margin: auto;
+  margin-right: 3rem;
+}
+
+/* line 80, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__img {
+  width: 100%;
+  filter: brightness(150%) saturate(0%);
+  transition: all 300ms ease 0s;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+/* line 98, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__input:focus ~ .text-input__frame {
+  border-color: #96A9B3;
+  transition: all 300ms ease 0s;
+}
+
+/* line 103, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__input:focus ~ .text-input__icon > .text-input__img {
+  filter: brightness(85%) saturate(0%);
+  transition: all 300ms ease 0s;
+}
+
+/* line 110, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__input:valid {
+  color: #03A9F4;
+  transition: all 300ms ease 0s;
+}
+
+/* line 112, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__input:valid ~ .text-input__frame {
+  border-color: #03A9F4;
+  transition: all 300ms ease 0s;
+}
+
+/* line 117, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_text-input.scss */
+.text-input__input:valid ~ .text-input__icon > .text-input__img {
+  filter: brightness(100%) saturate(100%);
+  transition: all 300ms ease 0s;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn {
+  display: inline-block;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+  word-spacing: 1.2px;
+  background-color: red;
+  border-radius: 25%/100%;
+  padding: 1.25rem 4rem;
+  user-select: none;
+  cursor: pointer;
+  transition: all 300ms ease 0s;
+}
+
+/* line 2, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn:not(:last-child) {
+  margin-right: 1.25rem;
+}
+
+/* line 20, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn:hover {
+  transition: all 300ms ease 0s;
+  transform: scale(1.1);
+}
+
+/* line 25, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn:active {
+  transition: all 300ms ease 0s;
+  transform: scale(1.2);
+}
+
+/* line 30, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--primary {
+  background-color: #E6ECEF;
+  color: #475156;
+}
+
+/* line 34, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--primary:active {
+  filter: brightness(95%);
+}
+
+/* line 39, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--secondary {
+  background-color: #03A9F4;
+  color: #FFFFFF;
+}
+
+/* line 42, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--secondary:active {
+  filter: brightness(105%);
+}
+
+/* line 47, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--prev {
+  padding: 1.25rem 2.5rem;
+  padding-left: 4rem;
+}
+
+/* line 48, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--prev::before {
+  content: "<";
+  display: inline-block;
+  transform: scale(2) translateY(-2.5%) translateX(-150%);
+  font-weight: lighter;
+  transition: all 300ms ease 0s;
+}
+
+/* line 60, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--next {
+  padding: 1.25rem 2.5rem;
+  padding-right: 4rem;
+}
+
+/* line 61, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--next::after {
+  content: ">";
+  display: inline-block;
+  transform: scale(2) translateY(-2.5%) translateX(150%);
+  font-weight: lighter;
+  transition: all 300ms ease 0s;
+}
+
+/* line 75, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--next:hover, .btn--prev:hover {
+  transform: scale(1);
+}
+
+/* line 80, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--next:active::before, .btn--prev:active::before {
+  transform: scale(2) translateY(-2.5%) translateX(-200%);
+  transition: all 300ms ease 0s;
+}
+
+/* line 85, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_buttons.scss */
+.btn--next:active::after, .btn--prev:active::after {
+  transform: scale(2) translateY(-2.5%) translateX(200%);
+  transition: all 300ms ease 0s;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_drag-and-drop.scss */
+.drag-and-drop {
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #E6ECEF;
+  padding: 3.5rem;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #96A9B3;
+  user-select: none;
+}
+
+/* line 15, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_drag-and-drop.scss */
+.drag-and-drop__type {
+  color: #03A9F4;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input {
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  background-color: transparent;
+  color: #475156;
+  border: solid 2px #E6ECEF;
+  border-radius: 0.5rem;
+  height: 5.2rem;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  transition: all 300ms ease 0s;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+/* line 18, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input:focus {
+  border-color: #03A9F4;
+  color: #03A9F4;
+  outline: none;
+  transition: all 300ms ease 0s;
+}
+
+/* line 25, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__label {
+  flex-basis: 8rem;
+  text-align: right;
+  margin-bottom: 0px;
+  align-self: center;
+}
+
+/* line 32, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__elem {
+  color: inherit;
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  flex-grow: 1;
+}
+
+/* line 38, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__elem-hour {
+  width: 100%;
+}
+
+/* line 40, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__elem-hour::after {
+  content: ":";
+}
+
+/* line 45, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__elem-min {
+  left: -5%;
+}
+
+/* line 50, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__btn {
+  color: #96A9B3;
+  flex-grow: 1;
+  text-align: right;
+}
+
+/* line 55, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__btn-up {
+  transform-origin: right;
+  left: 2.25px;
+}
+
+/* line 60, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__btn-down {
+  transform-origin: left;
+}
+
+/* line 64, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__btn-down, .time-input__btn-up {
+  font-size: 2.1rem;
+  text-transform: capitalize;
+  transition: all 300ms ease 0s;
+  display: inline-block;
+  cursor: pointer;
+  padding-right: 0.35rem;
+  padding-left: 0.35rem;
+  transform: scale(1) rotate(90deg);
+}
+
+/* line 76, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__btn-down:hover, .time-input__btn-up:hover {
+  transition: all 300ms ease 0s;
+  transform: scale(1.3) rotate(90deg);
+}
+
+/* line 81, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_time-input.scss */
+.time-input__btn-down:active, .time-input__btn-up:active {
+  transition: all 300ms ease 0s;
+  color: #03A9F4;
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email-container {
+  justify-content: center;
+}
+
+/* line 5, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email {
+  border-radius: .8rem;
+  flex-basis: 16rem;
+  height: 16rem;
+  padding: 4rem;
+  padding-bottom: 4.5rem;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  user-select: none;
+  cursor: pointer;
+  transition: all 300ms ease 0s;
+}
+
+/* line 21, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email--tertiary {
+  background-color: #EA3E23;
+  color: #FFFFFF;
+}
+
+/* line 26, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email--primary {
+  background-color: #FFFFFF;
+  color: #475156;
+}
+
+/* line 31, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email:not(:last-child) {
+  margin-right: 4rem;
+}
+
+/* line 35, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email__img-container {
+  width: 3.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  transform-origin: bottom;
+  transition: all 300ms ease 0s;
+  transition-duration: 0.6s;
+}
+
+/* line 44, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email__img {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 49, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email__text {
+  color: inherit;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  text-align: center;
+  transform-origin: top;
+  transition: all 300ms ease 0s;
+  transition-duration: 0.6s;
+}
+
+/* line 60, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email:hover > * {
+  transition: all 300ms ease 0s;
+  transform: scale(1.3);
+  transition-duration: 0.6s;
+}
+
+/* line 67, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/3-components/_email.scss */
+.email:active {
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.15);
+  transition: all 300ms ease 0s;
+  transform: scale(1.1);
+}
+
+/* line 1, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/4-layout/_1-form-layout.scss */
+.form {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  max-width: 90rem;
+  height: 62.5em;
+  margin: auto;
+  margin-top: 15rem;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.075);
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 30rem;
+  grid-template-areas: "main sidebar" "main sidebar";
+}
+
+/* line 26, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/4-layout/_1-form-layout.scss */
+.form__sidebar {
+  height: 100%;
+  padding: 4rem;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+/* line 37, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/4-layout/_1-form-layout.scss */
+.form__sidebar .pagination {
+  flex-basis: 5rem;
+  align-items: flex-start;
+  text-align: center;
+}
+
+/* line 44, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/4-layout/_1-form-layout.scss */
+.form__sidebar .contact-info {
+  flex-basis: 7rem;
+}
+
+/* line 48, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/4-layout/_1-form-layout.scss */
+.form__sidebar .module-info-container {
+  flex-basis: 42.5rem;
+  flex-grow: 1;
+}
+
+/* line 54, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/4-layout/_1-form-layout.scss */
+.form__container-main {
+  height: 100%;
+  background-color: #FFFFFF;
+  grid-area: main;
+}
+
+/* line 60, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/4-layout/_1-form-layout.scss */
+.form__main {
+  padding: 2rem 4rem;
+  padding-bottom: 0px;
+  background-color: #FFFFFF;
+  height: calc(100% - 8rem);
+  overflow: hidden;
+}
+
+/* line 68, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/4-layout/_1-form-layout.scss */
+.form__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* line 74, C:/Users/Yousefs_Dator/Desktop/Projekt/Form/form-sass/4-layout/_1-form-layout.scss */
+.form__btns {
+  text-align: right;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  height: 16rem;
+  padding-top: 2rem;
+}
+
+/*# sourceMappingURL=../styles.map */

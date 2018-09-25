@@ -1,0 +1,127 @@
+.text-input {
+    display: flex;
+    flex-direction: column-reverse;
+    user-select: none;
+
+    flex-grow: 1;
+  
+    &__label {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        color: $primary-dark-2;
+        margin-bottom: 1rem;
+        letter-spacing: 0.8px;
+        word-spacing: 1.4px;
+
+        align-self: flex-start;
+
+        &::after {
+            content:":";
+            display: block;
+            position: absolute;
+            right: -6px;
+            top: 0px;
+        }
+
+        &:active {
+            border-color: $primary-dark-2;
+        }
+    }
+
+    &__input {
+        border: transparent;
+        background-color: transparent;
+        outline: none;
+        
+        font-size: 1.7rem;
+        text-transform: capitalize;
+        color: $primary-dark-3;
+        letter-spacing: 0.8px;
+        word-spacing: 1.4px;
+
+        height: 100%;
+
+        z-index: 1;
+        &[type="email"] {
+            text-transform: none;
+        } 
+    }
+
+    &__container {
+        padding: 0 1.75rem;
+        height: 5.2rem;
+        cursor: text;
+    }
+
+    &__frame {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        border: solid $primary-dark-1 2px;
+        border-radius: 0.5rem;
+        z-index: 0;
+        transition: $ts;
+    }
+
+    &__icon {
+        width:3rem;
+        background-color: transparent;
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        margin: auto;
+        margin-right: 3rem;
+    }
+
+    &__img {
+        width: 100%;
+        filter: brightness(150%) saturate(0%);
+        transition: $ts;
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+    }
+
+     //focus or valid
+    &__input {
+        &:focus {
+
+            ~ {
+                .text-input__frame {
+                    border-color: $primary-dark-2;
+                    transition: $ts;
+                }
+
+                .text-input__icon > .text-input__img {
+                    filter: brightness(85%) saturate(0%);
+                    transition: $ts;
+                }
+            }
+        }
+
+        &:valid {
+            ~ {
+                .text-input__frame {
+                    border-color: $secondary;
+                    transition: $ts;
+                }
+
+                .text-input__icon > .text-input__img {
+                    filter: brightness(100%) saturate(100%);
+                    transition: $ts;
+                }
+            }
+
+            color: $secondary;
+            transition: $ts;
+        }
+    }
+}
